@@ -1,13 +1,14 @@
 import { useState } from 'react'
 
+import HomePage from './pages/home/Home';
+import Header from './components/header/Header';
 import './App.scss'
-import HomePage from './pages/home/Home'
-
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+     <Header></Header>
      <HomePage></HomePage>
     </>
   )
