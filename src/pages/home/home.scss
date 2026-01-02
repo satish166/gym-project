@@ -1,0 +1,73 @@
+@use '../../styles/components/variables' as *;
+@use '../../styles/components/mixin' as *;
+
+.banner-section {
+    position: relative;
+
+    @include media-breakpoint-down-lg {
+        margin-top: 56px;
+    }
+
+    .banner-content {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        color: #ffffff;
+        transform: translateY(-50%);
+
+        @include media-breakpoint-down-xxl {
+            left: 50%;
+        }
+
+        @include media-breakpoint-down-lg {
+            left: 20%;
+        }
+
+        @include media-breakpoint-down-sm {
+            left: 10px;
+        }
+
+        h1 {
+            color: $white;
+            text-transform: uppercase;
+            width: 600px;
+            max-width: 100%;
+            margin-bottom: 42px;
+
+            @include media-breakpoint-down-xl {
+                width: auto;
+            }
+             @include media-breakpoint-down-lg {
+            margin-bottom: 10px;
+        }
+
+
+            strong {
+                color: $primary;
+                font-size: inherit;
+                font-weight: 700;
+                font-family: 'Oswald';
+            }
+        }
+
+        h6 {
+            font-family: 'Muli';
+            font-size: 18px;
+            font-weight: 100;
+            color: $white;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 6px;
+            margin-bottom: 18px;
+
+        }
+
+        a {
+            color: $white;
+
+            @include media-breakpoint-down-sm {
+                padding: 10px 20px;
+            }
+        }
+    }
+}

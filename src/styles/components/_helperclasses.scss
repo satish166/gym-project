@@ -12,10 +12,6 @@
         @include button(secondary);
     }
 
-    &-light-green {
-        @include button(light-green);
-    }
-
     &-outline-primary {
         @include button(outline-primary);
     }
@@ -28,13 +24,7 @@
         @include button(disabled);
     }
 
-    &-add-to-cart {
-        @include button(add-to-cart);
-    }
 
-    &-outline-red {
-        @include button(outline-red);
-    }
 }
 
 

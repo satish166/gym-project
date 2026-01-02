@@ -48,30 +48,25 @@ $grid-breakpoints: (
     display: inline-block;
     cursor: pointer;
     color: $white;
-    line-height: 33px;
-    letter-spacing: normal;
-    font-size: 15px;
-    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    font-family: 'Muli';
+    font-size: 14px;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-    padding: 0 15px;
+    padding: 17px 30px 16px;
     transition: all .3s ease;
     position: relative;
     border-radius: 0;
     min-height: 38px;
     border: 0;
-    border-bottom: 2px solid transparent;
     box-shadow: none; 
     align-content: center;
     outline: none;
-    border-radius: 5px;
+    border-radius: 0;
     background-color: transparent;
-    @include media-breakpoint-down-xxl {
-        line-height: 26px;
-        padding: 0 10px;
-        font-size: 12px;
-        min-height: 20px;
-    }
+   
 
     @if $style ==primary {
         background-color: $primary;
@@ -84,50 +79,16 @@ $grid-breakpoints: (
         }
     }
 
-    @if $style ==secondary {
-        background-color: $secondary;
-        border-color: $darksecondary;
+    // @if $style ==secondary {
+    //     background-color: $secondary;
+    //     border-color: $darksecondary;
 
-        &:hover, &:active, &:not(:disabled):not(.disabled):active   {
-            background-color: $darksecondary;
-            border-color: $secondary;
-            color: $white;
-        }
-    }
-    @if $style ==light-green {
-        background-color: $dimGreen;
-        border: 1px solid $midGreen;
-        color: $darkGreen;
-
-        &:hover, &:active, &:not(:disabled):not(.disabled):active   {
-            background-color: $dimGreen;
-            border-color: $midGreen;
-            color: $darkGreen;
-        }
-    }
-    @if $style ==outline-red {
-        background-color: $white;
-        border: 1px solid $gray2;
-        color: $red;
-
-        &:hover, &:active, &:not(:disabled):not(.disabled):active   {
-            background-color: $red;
-            border-color: $red;
-            color: $white;
-        }
-    }
-    @if $style ==add-to-cart {
-        background-color: $gray5;
-        min-height: 33px;
-        font-size: 14px;
-        line-height: 17px;
-        color: $black;
-
-        &:hover, &:active, &:not(:disabled):not(.disabled):active   {
-            background-color: $gray5;
-        }
-    }
-
+    //     &:hover, &:active, &:not(:disabled):not(.disabled):active   {
+    //         background-color: $darksecondary;
+    //         border-color: $secondary;
+    //         color: $white;
+    //     }
+    // }
     
 
     @if $style ==outline-primary {        
@@ -139,28 +100,17 @@ $grid-breakpoints: (
             color: $white;
         }
     }
-    @if $style ==outline-secondary {        
-        border:1px solid $secondary;
-        color:$secondary;
-        background-color: transparent;
-        &:hover, &:active, &:not(:disabled):not(.disabled):active   {
-            background-color: $darksecondary;
-            border-color: $secondary; 
-            color: $white;
-        }
-    }
-    @if $style ==disabled {        
-        border:1px solid $gray1;
-        color:$gray1;
-        background-color: $ghostWhite;
-        cursor: not-allowed;
-        &:hover, &:active, &:not(:disabled):not(.disabled):active   {
-            border:1px solid $gray1;
-            color:$gray1;
-            background-color: $ghostWhite;
-            cursor: not-allowed;
-        }
-    }
+    // @if $style ==outline-secondary {        
+    //     border:1px solid $secondary;
+    //     color:$secondary;
+    //     background-color: transparent;
+    //     &:hover, &:active, &:not(:disabled):not(.disabled):active   {
+    //         background-color: $darksecondary;
+    //         border-color: $secondary; 
+    //         color: $white;
+    //     }
+    // }
+ 
 
     &:focus,
     &:active {

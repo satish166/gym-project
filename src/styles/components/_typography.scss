@@ -2,16 +2,16 @@
 @use './mixin' as *;
 
 * {
-    font-family: 'Oswald';
+    font-family: 'Muli';
     scrollbar-width: thin !important;
 }
 
 body {
-    font-family: 'Oswald';
+     font-family: 'Muli';
     font-size: 16px;
     background-color: $white;
     font-weight: 400;
-    color: $black;
+    color: $dark-black;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -53,10 +53,17 @@ span {
 p, span {
     font-family: 'Muli';
 }
+button {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+}
 
 
 h1,
 .h1 {
+    font-family: 'Oswald';
     font-weight: 700;
     font-size: 80px;
     line-height: 90px;
@@ -66,7 +73,7 @@ h1,
         line-height: normal;
      }
       @include media-breakpoint-down-sm {
-        font-size: 38px;
+        font-size: 30px;
      }
      * {
         font-size: inherit !important;
@@ -75,6 +82,7 @@ h1,
 
 h2,
 .h2 {
+    font-family: 'Oswald';
     font-size: 32px;
     font-weight: 600;
     line-height: normal;
@@ -92,6 +100,7 @@ h2,
 
 h3,
 .h3 {
+    font-family: 'Oswald';
     font-size: 24px;
     line-height: 32px;
     font-weight: 600;
@@ -106,6 +115,7 @@ h3,
 
 h4,
 .h4 {
+    font-family: 'Oswald';
     font-size: 20px;
     line-height: 28px;
     font-weight: 600;
@@ -127,6 +137,7 @@ h4,
 }
 h6,
 .h6 {
+    font-family: 'Oswald';
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
