@@ -7,7 +7,7 @@ import youtube from './../../assets/images/youtube.svg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faXmark } from '@fortawesome/free-solid-svg-icons';
-
+import { Link } from "react-router-dom";
 
 import './header.scss';
 
@@ -18,11 +18,9 @@ function Header() {
             <header className="header">
                 <nav className="navbar navbar-expand-lg">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#">
-                            <img src={BrandLogo} alt="brand logo" />
-                        </a>
+                        <Link to="/" className="navbar-brand"> <img src={BrandLogo} alt="brand logo" /></Link>
                         <div className="d-flex align-items-center">
-                            <div className="search-section">
+                            <div className="search-section d-lg-none">
                                 <div className="search">
                                     <button className="search-button" type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                         <FontAwesomeIcon icon={faMagnifyingGlass} />
@@ -38,22 +36,22 @@ function Header() {
                         <div className="collapse navbar-collapse" id="navbarText">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                   <Link to="/" className="nav-link active">Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#"> About Us</a>
+                                    <Link to="/about.html" className="nav-link">About us</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Classes</a>
+                                    <Link to="/" className="nav-link">Classes</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Services</a>
+                                    <Link to="/" className="nav-link">Services</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Our Team</a>
+                                    <Link to="/" className="nav-link">Our Team</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Pages</a>
+                                    <Link to="/" className="nav-link">Pages</Link>
                                     <div className="submenu">
                                         <ul class="dropdown">
                                             <li><a href="./about-us.html">About us</a></li>
@@ -67,7 +65,7 @@ function Header() {
                                     </div>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Contact</a>
+                                     <Link to="/" className="nav-link">Contact</Link>
                                 </li>
                             </ul>
                             <div className="social-menu">

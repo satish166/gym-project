@@ -1,14 +1,2 @@
-.page-layout {
-    display: flex;
-    align-items: start;
-
-    .sidebar-section {
-        flex: 0 0 250px;
-        z-index: 9999;
-    }
-
-    .main-content {
-        flex: 0 0 calc(100% - 250px);
-        margin-left: auto;
-    }
-}
+@use './variables' as *;
+@use './mixin' as *;
