@@ -93,7 +93,7 @@ $grid-breakpoints: (
 
     @if $style ==outline-primary {        
         border:1px solid $primary;
-        color:$primary;
+        color:$white;
         &:hover, &:active, &:not(:disabled):not(.disabled):active   {
             background-color: $primary;
             border-color: $primary; 

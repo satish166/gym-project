@@ -35,6 +35,7 @@
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
+
     &::after {
         content: "";
         position: absolute;
@@ -47,6 +48,42 @@
     }
 }
 
+.primary-heading {
+    text-transform: uppercase;
+    color: $primary;
+    margin-bottom: 10px;
+}
+
+.primary-subheading {
+    color: $white;
+    margin-bottom: 45px;
+}
+
 .font-semibold {
     font-weight: 600;
 }
+
+.container {
+    max-width: 1320px;
+
+    @include media-breakpoint-down-xxl {
+        max-width: 1140px;
+    }
+
+    @include media-breakpoint-down-xl {
+        max-width: 960px;
+    }
+
+    @include media-breakpoint-down-lg {
+        max-width: 720px;
+    }
+
+    @include media-breakpoint-down-md {
+        max-width: 540px;
+    }
+
+    @include media-breakpoint-down-sm {
+        max-width: 100%;
+    }
+}
+
