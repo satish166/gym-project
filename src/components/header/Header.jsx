@@ -1,4 +1,7 @@
 import React from "react";
+
+import { NavLink } from "react-router-dom";
+
 import BrandLogo from './../../assets/images/logo.png';
 import facebook from './../../assets/images/facebook.svg';
 import insta from './../../assets/images/insta.svg';
@@ -14,7 +17,7 @@ import './header.scss';
 function Header() {
     return (
         <>
-
+    
             <header className="header">
                 <nav className="navbar navbar-expand-lg">
                     <div className="container-fluid">
@@ -34,40 +37,63 @@ function Header() {
 
 
                         <div className="collapse navbar-collapse" id="navbarText">
+
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                   <Link to="/" className="nav-link active">Home</Link>
+                                    <NavLink to="/" end className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+                                        Home
+                                    </NavLink>
                                 </li>
+
                                 <li className="nav-item">
-                                    <Link to="/about.html" className="nav-link">About us</Link>
+                                    <NavLink to="/about" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+                                        About us
+                                    </NavLink>
                                 </li>
+
                                 <li className="nav-item">
-                                    <Link to="/" className="nav-link">Classes</Link>
+                                    <NavLink to="/classes" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+                                        Classes
+                                    </NavLink>
                                 </li>
+
                                 <li className="nav-item">
-                                    <Link to="/" className="nav-link">Services</Link>
+                                    <NavLink to="/services" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+                                        Services
+                                    </NavLink>
                                 </li>
+
                                 <li className="nav-item">
-                                    <Link to="/" className="nav-link">Our Team</Link>
+                                    <NavLink to="/team" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+                                        Our Team
+                                    </NavLink>
                                 </li>
-                                <li className="nav-item">
-                                    <Link to="/" className="nav-link">Pages</Link>
+
+                                <li className="nav-item has-submenu">
+                                    <NavLink className={({ isActive }) => `nav-link ${isActive ? '' : ''}`}>
+                                        Pages
+                                    </NavLink>
+
                                     <div className="submenu">
-                                        <ul class="dropdown">
-                                            <li><a href="./about-us.html">About us</a></li>
-                                            <li><a href="./class-timetable.html">Classes timetable</a></li>
-                                            <li><a href="./bmi-calculator.html">Bmi calculate</a></li>
-                                            <li><a href="./team.html">Our team</a></li>
-                                            <li><a href="./gallery.html">Gallery</a></li>
-                                            <li><a href="./blog.html">Our blog</a></li>
-                                            <li><a href="./404.html">404</a></li>
+                                        <ul className="dropdown">
+                                            <li><NavLink to="/about">About us</NavLink></li>
+                                            <li><NavLink to="/class-timetable">Classes timetable</NavLink></li>
+                                            <li><NavLink to="/bmi-calculator">BMI calculator</NavLink></li>
+                                            <li><NavLink to="/team">Our team</NavLink></li>
+                                            <li><NavLink to="/gallery">Gallery</NavLink></li>
+                                            <li><NavLink to="/blog">Our blog</NavLink></li>
+                                            <li><NavLink to="/404">404</NavLink></li>
                                         </ul>
                                     </div>
                                 </li>
+
                                 <li className="nav-item">
-                                     <Link to="/" className="nav-link">Contact</Link>
+                                    <NavLink to="/contact" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
+                                        Contact
+                                    </NavLink>
                                 </li>
                             </ul>
+
                             <div className="social-menu">
                                 <div className="search-section d-none d-lg-block">
                                     <div className="search">
