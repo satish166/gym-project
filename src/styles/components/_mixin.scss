@@ -3,7 +3,7 @@
 $grid-breakpoints: (
     xs: 0,
     sm: 576px,
-    md: 768px,
+    md: 767px,
     lg: 991px,
     xl: 1200px,
     xxl: 1640px,
@@ -31,7 +31,7 @@ $grid-breakpoints: (
     }
  }
 @mixin media-breakpoint-down-md {
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         @content;
     }
  }

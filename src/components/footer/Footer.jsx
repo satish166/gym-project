@@ -18,7 +18,7 @@ function Footer() {
             <footer className="footer">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-lg-4">
                             <div className="left-section">
                                 <img src={BrandLogo} alt="" />
                                 <div className="content">
@@ -52,7 +52,7 @@ function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 col-lg-2">
                             <ul className="footer-links">
                                 <li>
                                     <h6>Useful links</h6>
@@ -71,7 +71,7 @@ function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 col-lg-2">
                             <ul className="footer-links">
                                 <li>
                                     <h6>Support</h6>
@@ -90,7 +90,7 @@ function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-6 col-lg-4">
                             <div className="footer-links">
                                 <h6>Tips & Guides</h6>
                                 <div className="">

@@ -4,12 +4,12 @@
 .banner-section {
     position: relative;
 
-    @include media-breakpoint-down-lg {
-        margin-top: 56px;
-    }
-
     .banner-image {
         text-align: center;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
     }
 
     .banner-content {
