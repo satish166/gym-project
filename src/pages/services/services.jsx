@@ -25,7 +25,7 @@ function Services() {
                     <div className="main-content">
                         <h1>Services</h1>
                         <div className="breadcrumbs">
-                            <ul>
+                            <ul data-aos="fade-up" data-aos-delay="300">
                                 <li><a href="/">Home <FontAwesomeIcon icon={faAngleRight} /></a></li>
                                 <li className="current-page">Services</li>
                             </ul>
@@ -34,10 +34,10 @@ function Services() {
                 </div>
                 <section className="what-we-do">
                     <div className="container">
-                        <h6 className="primary-heading">What we do?</h6>
-                        <h2 className="primary-subheading">PUSH YOUR LIMITS FORWARD</h2>
+                        <h6 className="primary-heading" data-aos="fade-up" data-aos-delay="300">What we do?</h6>
+                        <h2 className="primary-subheading" data-aos="fade-up" data-aos-delay="400">PUSH YOUR LIMITS FORWARD</h2>
 
-                        <div className="grid-details">
+                        <div className="grid-details" data-aos="fade-up" data-aos-delay="500">
                             <div className="image-section">
                                 <img src={service1} alt="Service 1" />
                             </div>
@@ -78,19 +78,19 @@ function Services() {
                         <img src={appointmentBanner} alt="banner image" />
                     </div>
                     <div className="appointment-content">
-                        <h2>registration now to get more deals</h2>
-                        <h4>Where health, beauty and fitness meet.</h4>
-                        <a href="#" className="button button-outline-primary">appointment</a>
+                        <h2 data-aos="fade-up" data-aos-delay="300">registration now to get more deals</h2>
+                        <h4 data-aos="fade-up" data-aos-delay="400">Where health, beauty and fitness meet.</h4>
+                        <a href="#" className="button button-outline-primary" data-aos="fade-up" data-aos-delay="500">appointment</a>
                     </div>
                 </section>
 
                 <section className="our-plans">
                     <div className="container">
-                        <h6 className="primary-heading">Our plans</h6>
-                        <h2 className="primary-subheading">CHOOSE YOUR FITNESS PLAN</h2>
+                        <h6 className="primary-heading" data-aos="fade-up" data-aos-delay="300">Our plans</h6>
+                        <h2 className="primary-subheading" data-aos="fade-up" data-aos-delay="400">CHOOSE YOUR FITNESS PLAN</h2>
                         <div className="row">
-                            <div className="col-md-4">
-                                <div className="plan-card">
+                            <div className="col-md-4" data-aos="fade-right" data-aos-delay="400">
+                                <div className="plan-card" >
                                     <h4>Class drop-in</h4>
                                     <h2>$ 39.0</h2>
                                     <h6>SINGLE CLASS</h6>
@@ -107,8 +107,8 @@ function Services() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">
-                                <div className="plan-card">
+                            <div className="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                                <div className="plan-card" >
                                     <h4>12 Month unlimited</h4>
                                     <h2>$ 99.0</h2>
                                     <h6>SINGLE CLASS</h6>
@@ -125,8 +125,8 @@ function Services() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">
-                                <div className="plan-card">
+                            <div className="col-md-4" data-aos="fade-left" data-aos-delay="300">
+                                <div className="plan-card" >
                                     <h4>6 Month unlimited</h4>
                                     <h2>$ 59.0</h2>
                                     <h6>SINGLE CLASS</h6>

@@ -20,26 +20,26 @@ import './about-us.scss';
 function AboutUs() {
     return (
         <>
-            <section className="about-us">
+            <section className="about-us" >
                 <div className="main-image-section">
                     <img src={aboutImage} alt="About Image" />
                     <div className="main-content">
                         <h1>About US</h1>
                         <div className="breadcrumbs">
-                            <ul>
+                            <ul data-aos="fade-up">
                                 <li><a href="/">Home <FontAwesomeIcon icon={faAngleRight} /></a></li>
                                 <li className="current-page">About</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <section className="why-choose-us">
+                <section className="why-choose-us" data-aos="fade-up" data-aos-delay="300">
                     <div className="container">
-                        <h6 className="primary-heading">Why choose us?</h6>
-                        <h2 className="primary-subheading">PUSH YOUR LIMITS FORWARD</h2>
+                        <h6 className="primary-heading" data-aos="fade-up" data-aos-delay="400">Why choose us?</h6>
+                        <h2 className="primary-subheading" data-aos="fade-up" data-aos-delay="500">PUSH YOUR LIMITS FORWARD</h2>
                         <div className="row">
                             <div className="col-md-6 col-lg-3">
-                                <div className="choose-card">
+                                <div className="choose-card" data-aos="fade-right" data-aos-delay="300">
                                     <div className="image">
                                         <img src={gymMachine} alt="Gym Machine" />
                                     </div>
@@ -50,7 +50,7 @@ function AboutUs() {
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-3">
-                                <div className="choose-card">
+                                <div className="choose-card" data-aos="fade-right" data-aos-delay="300">
                                     <div className="image">
                                         <img src={healthFood} alt="Health Food" />
                                     </div>
@@ -61,7 +61,7 @@ function AboutUs() {
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-3">
-                                <div className="choose-card">
+                                <div className="choose-card" data-aos="fade-left" data-aos-delay="300">
                                     <div className="image">
                                         <img src={dumble} alt="dumble" />
                                     </div>
@@ -72,12 +72,12 @@ function AboutUs() {
                                 </div>
                             </div>
                             <div className="col-md-6 col-lg-3">
-                                <div className="choose-card">
+                                <div className="choose-card" data-aos="fade-left" data-aos-delay="300">
                                     <div className="image">
                                         <img src={heartrate} alt="heartrate" />
                                     </div>
                                     <div className="card-content">
-                                        <h4>Unique to your needs</h4>
+                                        <h4 >Unique to your needs</h4>
                                         <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
                                     </div>
                                 </div>
@@ -91,9 +91,9 @@ function AboutUs() {
                         <img src={appointmentBanner} alt="banner image" />
                     </div>
                     <div className="appointment-content">
-                        <h2>registration now to get more deals</h2>
-                        <h4>Where health, beauty and fitness meet.</h4>
-                        <a href="#" className="button button-outline-primary">appointment</a>
+                        <h2 data-aos="fade-up" data-aos-delay="300">registration now to get more deals</h2>
+                        <h4 data-aos="fade-up" data-aos-delay="400">Where health, beauty and fitness meet.</h4>
+                        <a href="#" className="button button-outline-primary" data-aos="fade-up" data-aos-delay="500">appointment</a>
                     </div>
                 </section>
 
@@ -104,9 +104,9 @@ function AboutUs() {
                         </div>
                         <div className="col-md-6">
                             <div className="what-we-done-content">
-                                <h6 className="primary-heading">About Us</h6>
-                                <h2 className="primary-subheading">What we have done</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                <h6 className="primary-heading" data-aos="fade-left" data-aos-delay="300">About Us</h6>
+                                <h2 className="primary-subheading" data-aos="fade-left" data-aos-delay="300">What we have done</h2>
+                                <p data-aos="fade-left" data-aos-delay="300">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis
                                 . aliquip ex ea commodo consequat sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                             </div>

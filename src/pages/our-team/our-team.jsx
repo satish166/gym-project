@@ -27,7 +27,7 @@ function OurTeam() {
                     <div className="main-content">
                         <h1>Our Team</h1>
                         <div className="breadcrumbs">
-                            <ul>
+                            <ul data-aos="fade-up" data-aos-delay="300">
                                 <li><a href="/">Home <FontAwesomeIcon icon={faAngleRight} /></a></li>
                                 <li className="current-page">Our Team</li>
                             </ul>
@@ -47,7 +47,7 @@ function OurTeam() {
                     </div>
                     <div className="our-team-details">
                         <div className="row">
-                            <div className="col-md-4">
+                            <div className="col-md-4" data-aos="fade-right" data-aos-delay="300">
                                 <div className="classes-card">
                                     <div className="image">
                                         <img src={team1} alt="Gym Machine" />
@@ -61,7 +61,7 @@ function OurTeam() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4" data-aos="fade-up" data-aos-delay="300">
                                 <div className="classes-card">
                                     <div className="image">
                                         <img src={team2} alt="Gym Machine" />
@@ -75,7 +75,7 @@ function OurTeam() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4" data-aos="fade-left" data-aos-delay="300">
                                 <div className="classes-card">
                                     <div className="image">
                                         <img src={team3} alt="Gym Machine" />
@@ -89,7 +89,7 @@ function OurTeam() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4" data-aos="fade-right" data-aos-delay="300">
                                 <div className="classes-card">
                                     <div className="image">
                                         <img src={team1} alt="Gym Machine" />
@@ -103,7 +103,7 @@ function OurTeam() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4" data-aos="fade-up" data-aos-delay="300">
                                 <div className="classes-card">
                                     <div className="image">
                                         <img src={team2} alt="Gym Machine" />
@@ -117,7 +117,7 @@ function OurTeam() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4" data-aos="fade-left" data-aos-delay="300">
                                 <div className="classes-card">
                                     <div className="image">
                                         <img src={team3} alt="Gym Machine" />
@@ -131,7 +131,7 @@ function OurTeam() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4" data-aos="fade-right" data-aos-delay="300">
                                 <div className="classes-card">
                                     <div className="image">
                                         <img src={team1} alt="Gym Machine" />
@@ -145,7 +145,7 @@ function OurTeam() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4" data-aos="fade-up" data-aos-delay="300">
                                 <div className="classes-card">
                                     <div className="image">
                                         <img src={team2} alt="Gym Machine" />
@@ -159,7 +159,7 @@ function OurTeam() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4" data-aos="fade-left" data-aos-delay="300">
                                 <div className="classes-card">
                                     <div className="image">
                                         <img src={team3} alt="Gym Machine" />

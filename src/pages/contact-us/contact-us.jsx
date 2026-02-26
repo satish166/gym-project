@@ -28,7 +28,7 @@ function ContactUs() {
                     <div className="main-content">
                         <h1>Contact Us</h1>
                         <div className="breadcrumbs">
-                            <ul>
+                            <ul data-aos="fade-up" data-aos-delay="300">
                                 <li><a href="/">Home <FontAwesomeIcon icon={faAngleRight} /></a></li>
                                 <li className="current-page">Contact Us</li>
                             </ul>
@@ -38,7 +38,7 @@ function ContactUs() {
                <section className="contact-us-main">
                 <div className="container">
                             <div className="row">
-                                <div className="col-md-6">
+                                <div className="col-md-6" data-aos="fade-right" data-aos-delay="300">
                                     <h6 className="primary-heading">Our Team</h6>
                                     <h2 className="primary-subheading">TRAIN WITH EXPERTS</h2>
 
@@ -68,7 +68,7 @@ function ContactUs() {
                                 </div>
 
                                 </div>
-                                <div className="col-md-6">
+                                <div className="col-md-6" data-aos="fade-left" data-aos-delay="300">
                                     <form className="contact-form">
                                         <div className="input">
                                             <input type="text" placeholder="Name" />
@@ -91,7 +91,7 @@ function ContactUs() {
                 </div>
             </section>
 
-            <EmbedMap />
+            <EmbedMap / >
             
                 <div className="contact-location">
                     <div className="container">
