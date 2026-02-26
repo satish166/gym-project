@@ -1,3 +1,9 @@
+
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
 import { Routes, Route } from "react-router-dom";
 import HomePage from './pages/home/Home';
 import AboutUs from './pages/about-us/about-us';
@@ -10,6 +16,16 @@ import ContactUs from './pages/contact-us/contact-us';
 import './App.scss';
 
 function App() {
+
+  useEffect(() => {
+    AOS.refresh();
+    AOS.init({
+      duration: 800, 
+      once: false,      
+    });
+  }, []);
+
+
   return (
     <>
       <Routes>

@@ -28,7 +28,7 @@ function Classes() {
                     <div className="main-content">
                         <h1>Classes detail</h1>
                         <div className="breadcrumbs">
-                            <ul>
+                            <ul data-aos="fade-up" data-aos-delay="300">
                                 <li><a href="/">Home <FontAwesomeIcon icon={faAngleRight} /></a></li>
                                 <li><a href="/classes">Classes <FontAwesomeIcon icon={faAngleRight} /></a></li>
                                 <li className="current-page">Body building</li>
@@ -39,31 +39,31 @@ function Classes() {
                 <section className="classes-detail">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-8">
+                            <div className="col-lg-8" data-aos="fade-right" data-aos-delay="300">
                                 <div className="yoga-image">
                                     <img className="w-100" src={detailIMage} alt="Gym Machine" />
 
                                 </div>
 
                                 <div className="left-content">
-                                    <h2 className="primary-subheading">BODY BUILDING</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    <h2 className="primary-subheading" data-aos="fade-up" data-aos-delay="300">BODY BUILDING</h2>
+                                    <p data-aos="fade-up" data-aos-delay="400">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua accusantium doloremque laudantium.
                                         Excepteur sint occaecat cupidatat non proident sculpa.</p>
                                 </div>
                                 <div className="trainer-info">
-                                    <h2 className="primary-subheading">TRAINER</h2>
-                                    <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur officia deserunt mollit.</p>
+                                    <h2 className="primary-subheading" data-aos="fade-up" data-aos-delay="300">TRAINER</h2>
+                                    <p data-aos="fade-up" data-aos-delay="400">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur officia deserunt mollit.</p>
                                 </div>
                                 <div className="trainer-profile">
                                     <div className="row">
-                                        <div className="col-md-5">
+                                        <div className="col-md-5" data-aos="fade-right" data-aos-delay="300">
                                             <div className="profile-image">
                                                 <img src={trainerProfile} alt="Trainer Profile" />
                                             </div>
                                         </div>
-                                        <div className="col-md-7">
+                                        <div className="col-md-7" data-aos="fade-left" data-aos-delay="300">
                                             <div className="trainer-content">
                                                 <div className="top-name-section">
                                                     <div className="name">
@@ -91,7 +91,7 @@ function Classes() {
 
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-xl-3">
+                            <div className="col-lg-4 col-xl-3" data-aos="fade-left" data-aos-delay="300">
                                 <div className="cat">
                                     <h5 className="secondary-heading">CATEGORIES</h5>
                                     <ul>
@@ -116,16 +116,16 @@ function Classes() {
                                     </ul>
                                 </div>
 
-                                <div className="latest-post">
+                                <div className="latest-post" data-aos="fade-up" data-aos-delay="300">
                                     <h5 className="secondary-heading">Latest posts</h5>
                                     <div className="post">
-                                        <div className="post-image">
+                                        <div className="post-image" data-aos="fade-up" data-aos-delay="300">
                                             <img src={latestPostImage1} alt="Gym Machine" />
                                         </div>
                                     </div>
                                     <div className="post-list">
                                         <ul>
-                                            <li>
+                                            <li data-aos="fade-up" data-aos-delay="300">
                                                 <div className="image">
                                                     <img src={latestPostImage2} alt="Gym Machine" />
                                                 </div>
@@ -134,7 +134,7 @@ function Classes() {
                                                     <p>Aug 15, 2019</p>
                                                 </div>
                                             </li>
-                                            <li>
+                                            <li data-aos="fade-up" data-aos-delay="350">
                                                 <div className="image">
                                                     <img src={latestPostImage3} alt="Gym Machine" />
                                                 </div>
@@ -143,7 +143,7 @@ function Classes() {
                                                     <p>Aug 15, 2019</p>
                                                 </div>
                                             </li>
-                                            <li>
+                                            <li data-aos="fade-up" data-aos-delay="400">
                                                 <div className="image">
                                                     <img src={latestPostImage4} alt="Gym Machine" />
                                                 </div>
@@ -152,7 +152,7 @@ function Classes() {
                                                     <p>Aug 15, 2019</p>
                                                 </div>
                                             </li>
-                                            <li>
+                                            <li data-aos="fade-up" data-aos-delay="450">
                                                 <div className="image">
                                                     <img src={latestPostImage5} alt="Gym Machine" />
                                                 </div>
@@ -165,7 +165,7 @@ function Classes() {
                                         </ul>
                                     </div>
 
-                                    <div className="sidbar-banner mt-5">
+                                    <div className="sidbar-banner mt-5" data-aos="fade-up" data-aos-delay="400">
                                         <img src={sidbarBanner} alt="Gym Machine" />
                                     </div>
                                 </div>

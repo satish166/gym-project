@@ -25,7 +25,7 @@ import './home.scss';
 function HomePage() {
     return (
         <>
-            <section className="banner-section">
+            <section className="banner-section" data-aos="fade-up">
                 <div className="banner-image">
                     <img src={bannerImage} alt="banner image" />
                 </div>
@@ -41,7 +41,7 @@ function HomePage() {
                     <h2 className="primary-subheading">PUSH YOUR LIMITS FORWARD</h2>
                     <div className="row">
                         <div className="col-md-6 col-lg-3">
-                            <div className="choose-card">
+                            <div className="choose-card" data-aos="fade-up">
                                 <div className="image">
                                     <img src={gymMachine} alt="Gym Machine" />
                                 </div>
@@ -52,7 +52,7 @@ function HomePage() {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3">
-                            <div className="choose-card">
+                            <div className="choose-card" data-aos="fade-up">
                                 <div className="image">
                                     <img src={healthFood} alt="Health Food" />
                                 </div>
@@ -63,7 +63,7 @@ function HomePage() {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3">
-                            <div className="choose-card">
+                            <div className="choose-card" data-aos="fade-up">
                                 <div className="image">
                                     <img src={dumble} alt="dumble" />
                                 </div>
@@ -74,7 +74,7 @@ function HomePage() {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3">
-                            <div className="choose-card">
+                            <div className="choose-card" data-aos="fade-up">
                                 <div className="image">
                                     <img src={heartrate} alt="heartrate" />
                                 </div>
@@ -91,10 +91,10 @@ function HomePage() {
 
             <section className="our-classes">
                 <div className="container">
-                    <h6 className="primary-heading">Our Classes</h6>
-                    <h2 className="primary-subheading">PUSH YOUR LIMITS FORWARD</h2>
-                    <div className="row">
-                        <div className="col-md-6 col-lg-4">
+                    <h6 className="primary-heading"  data-aos="fade-up" data-aos-delay="300">Our Classes</h6>
+                    <h2 className="primary-subheading" data-aos="fade-up" data-aos-delay="600">PUSH YOUR LIMITS FORWARD</h2>
+                    <div className="row" data-aos="fade-up" data-aos-delay="800">
+                        <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                             <div className="classes-card">
                                 <div className="image">
                                     <img src={class1} alt="Gym Machine" />
@@ -112,7 +112,7 @@ function HomePage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                             <div className="classes-card">
                                 <div className="image">
                                     <img src={class2} alt="Gym Machine" />
@@ -130,7 +130,7 @@ function HomePage() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-4">
+                        <div className="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                             <div className="classes-card">
                                 <div className="image">
                                     <img src={class3} alt="Gym Machine" />
@@ -149,7 +149,7 @@ function HomePage() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className="classes-card">
+                            <div className="classes-card" data-aos="fade-up" data-aos-delay="700">
                                 <div className="image">
                                     <img src={class4} alt="Gym Machine" />
                                 </div>
@@ -167,7 +167,7 @@ function HomePage() {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div className="classes-card">
+                            <div className="classes-card" data-aos="fade-up" data-aos-delay="700">
                                 <div className="image">
                                     <img src={class5} alt="Gym Machine" />
                                 </div>
@@ -188,31 +188,31 @@ function HomePage() {
                 </div>
             </section>
 
-            <section className="appointment">
+            <section className="appointment" data-aos="fade-up" data-aos-delay="300">
                 <div className="appointment-image">
                     <img src={appointmentBanner} alt="banner image" />
                 </div>
                 <div className="appointment-content">
-                    <h2>registration now to get more deals</h2>
-                    <h4>Where health, beauty and fitness meet.</h4>
-                    <a href="#" className="button button-outline-primary">appointment</a>
+                    <h2 data-aos="fade-up" data-aos-delay="300">registration now to get more deals</h2>
+                    <h4 data-aos="fade-up" data-aos-delay="400">Where health, beauty and fitness meet.</h4>
+                    <a href="#" className="button button-outline-primary" data-aos="fade-up" data-aos-delay="500">appointment</a>
                 </div>
             </section>
             <section className="our-team">
                 <div className="container">
                     <div className="d-flex justify-content-between align-items-start  flex-wrap">
                         <div className="headings">
-                            <h6 className="primary-heading">Our Team</h6>
-                            <h2 className="primary-subheading">TRAIN WITH EXPERTS</h2>
+                            <h6 className="primary-heading" data-aos="fade-right" data-aos-delay="300">Our Team</h6>
+                            <h2 className="primary-subheading" data-aos="fade-right" data-aos-delay="300">TRAIN WITH EXPERTS</h2>
                         </div>
-                        <div className="action">
+                        <div className="action" data-aos="fade-left" data-aos-delay="300">
                             <a href="#" className="button button-outline-primary">Appointment</a>
                         </div>
                     </div>
                     <div className="our-team-details">
                         <div className="row">
                             <div className="col-md-4">
-                                <div className="classes-card">
+                                <div className="classes-card" data-aos="fade-right" data-aos-delay="300">
                                     <div className="image">
                                         <img src={team1} alt="Gym Machine" />
                                     </div>
@@ -226,7 +226,7 @@ function HomePage() {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="classes-card">
+                                <div className="classes-card" data-aos="fade-up" data-aos-delay="300">
                                     <div className="image">
                                         <img src={team2} alt="Gym Machine" />
                                     </div>
@@ -240,7 +240,7 @@ function HomePage() {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <div className="classes-card">
+                                <div className="classes-card" data-aos="fade-left" data-aos-delay="300">
                                     <div className="image">
                                         <img src={team3} alt="Gym Machine" />
                                     </div>
@@ -259,7 +259,7 @@ function HomePage() {
             </section>
 
 
-            <div className="contact-location">
+            <div className="contact-location" data-aos="fade-up" data-aos-delay="300">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4">
