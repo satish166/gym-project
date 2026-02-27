@@ -186,7 +186,7 @@ function HomePage() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>  
 
             <section className="appointment" data-aos="fade-up" data-aos-delay="300">
                 <div className="appointment-image">

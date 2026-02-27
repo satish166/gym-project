@@ -33,7 +33,7 @@ function AboutUs() {
                         </div>
                     </div>
                 </div>
-                <section className="why-choose-us" data-aos="fade-up" data-aos-delay="300">
+                <section className="why-choose-us overflow-hidden" data-aos="fade-up" data-aos-delay="300">
                     <div className="container">
                         <h6 className="primary-heading" data-aos="fade-up" data-aos-delay="400">Why choose us?</h6>
                         <h2 className="primary-subheading" data-aos="fade-up" data-aos-delay="500">PUSH YOUR LIMITS FORWARD</h2>
@@ -97,7 +97,7 @@ function AboutUs() {
                     </div>
                 </section>
 
-                <section className="what-we-done">
+                <section className="what-we-done overflow-hidden">
                     <div className="row mx-0">
                         <div className="col-md-6">
                             <img src={AboutImage} alt="about us" />

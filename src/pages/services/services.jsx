@@ -32,7 +32,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <section className="what-we-do">
+                <section className="what-we-do overflow-hidden">
                     <div className="container">
                         <h6 className="primary-heading" data-aos="fade-up" data-aos-delay="300">What we do?</h6>
                         <h2 className="primary-subheading" data-aos="fade-up" data-aos-delay="400">PUSH YOUR LIMITS FORWARD</h2>
@@ -84,7 +84,7 @@ function Services() {
                     </div>
                 </section>
 
-                <section className="our-plans">
+                <section className="our-plans overflow-hidden">
                     <div className="container">
                         <h6 className="primary-heading" data-aos="fade-up" data-aos-delay="300">Our plans</h6>
                         <h2 className="primary-subheading" data-aos="fade-up" data-aos-delay="400">CHOOSE YOUR FITNESS PLAN</h2>

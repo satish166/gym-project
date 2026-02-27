@@ -35,7 +35,7 @@ function ContactUs() {
                         </div>
                     </div>
                 </div>
-               <section className="contact-us-main">
+               <section className="contact-us-main overflow-hidden">
                 <div className="container">
                             <div className="row">
                                 <div className="col-md-6" data-aos="fade-right" data-aos-delay="300">

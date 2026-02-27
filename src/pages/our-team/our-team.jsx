@@ -34,7 +34,7 @@ function OurTeam() {
                         </div>
                     </div>
                 </div>
-               <section className="our-team">
+               <section className="our-team overflow-hidden">
                 <div className="container">
                     <div className="d-flex justify-content-between align-items-start  flex-wrap">
                         <div className="headings">
@@ -45,7 +45,7 @@ function OurTeam() {
                             <a href="#" className="button button-outline-primary">Appointment</a>
                         </div>
                     </div>
-                    <div className="our-team-details">
+                    <div className="our-team-details ">
                         <div className="row">
                             <div className="col-md-4" data-aos="fade-right" data-aos-delay="300">
                                 <div className="classes-card">
