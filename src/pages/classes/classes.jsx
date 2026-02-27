@@ -36,7 +36,7 @@ function Classes() {
                         </div>
                     </div>
                 </div>
-                <section className="classes-detail">
+                <section className="classes-detail overflow-hidden">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-8" data-aos="fade-right" data-aos-delay="300">
@@ -173,7 +173,7 @@ function Classes() {
                         </div>
                     </div>
                 </section>
-                <div className="contact-location">
+                <div className="contact-location overflow-hidden">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-4">
